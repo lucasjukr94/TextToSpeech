@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XBdV34ZHYQv1yqGkkgaIk+sElE8tqZV150Q/ypw3UFlSwQkiXAc6beqCt4/gNF3NyWweL033h1UAK0nts9I1fg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Micro\\source\\repos\\Portfolio\\TextToVoice\\SpeechToText\\SpeechToText.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Micro\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Micro\\source\\repos\\Portfolio\\TextToVoice\\TextToVoice\\TextToVoice.csproj": {}
+    "C:\\Users\\Micro\\source\\repos\\Portfolio\\TextToVoice\\SpeechToText\\SpeechToText.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Micro\\source\\repos\\Portfolio\\TextToVoice\\TextToVoice\\TextToVoice.csproj": {
+    "C:\\Users\\Micro\\source\\repos\\Portfolio\\TextToVoice\\SpeechToText\\SpeechToText.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Micro\\source\\repos\\Portfolio\\TextToVoice\\TextToVoice\\TextToVoice.csproj",
-        "projectName": "TextToVoice",
-        "projectPath": "C:\\Users\\Micro\\source\\repos\\Portfolio\\TextToVoice\\TextToVoice\\TextToVoice.csproj",
+        "projectUniqueName": "C:\\Users\\Micro\\source\\repos\\Portfolio\\TextToVoice\\SpeechToText\\SpeechToText.csproj",
+        "projectName": "SpeechToText",
+        "projectPath": "C:\\Users\\Micro\\source\\repos\\Portfolio\\TextToVoice\\SpeechToText\\SpeechToText.csproj",
         "packagesPath": "C:\\Users\\Micro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Micro\\source\\repos\\Portfolio\\TextToVoice\\TextToVoice\\obj\\",
+        "outputPath": "C:\\Users\\Micro\\source\\repos\\Portfolio\\TextToVoice\\SpeechToText\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Micro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Speech": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
